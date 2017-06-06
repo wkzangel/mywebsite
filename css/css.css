@@ -1,0 +1,267 @@
+/****************************************************************************          网站整体风格定义 */
+BODY {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	/* ==========    默认页面文字大小    =============== */
+	SCROLLBAR-FACE-COLOR: #01809A;
+	SCROLLBAR-HIGHLIGHT-COLOR: #01809A;
+	SCROLLBAR-SHADOW-COLOR: #01809A;
+	SCROLLBAR-3DLIGHT-COLOR: #01809A;
+	SCROLLBAR-ARROW-COLOR: #fFFFFF;
+	SCROLLBAR-TRACK-COLOR: #ffffff;
+	SCROLLBAR-BASE-COLOR: #ffffff;
+	/* ==========    默认页面文字、大小、行距、颜色   =============== */
+	font-family:"宋体";
+	font-size: 12px;
+	color: #333;
+	text-decoration: none;
+	background-image: url(../images/bj.jpg);
+	background-repeat: repeat;
+	background-position: center top;    /* ==========    filter虑镜，上下渐变定义    =============== 
+	filter:alpha(style=1,startY=0,finishY=100,startX=100,finishX=100);
+	*/
+	line-height: 24px;
+	scrollbar-face-color:#C0C0C0;
+	scrollbar-highlight-color:#FFFFFF;
+	scrollbar-3dlight-color:#C0C0C0;
+	scrollbar-darkshadow-color:#000000;
+	scrollbar-shadow-color:#808080;
+	scrollbar-arrow-color:#FFFFFF;
+	scrollbar-track-color:#E0E0E0;
+
+}
+/****************************************************************************       网站默认连接定义 */
+	/* ==========    带链接状态    =============== */
+A:link {
+	TEXT-DECORATION: none;
+	color: #333;
+	}
+	/* ==========    鼠标点击后，链接状态    =============== */
+A:visited {
+	TEXT-DECORATION: none;
+	color: #333;
+	}
+    /* ==========    鼠标经过，链接状态色    =============== */
+A:hover {
+	TEXT-DECORATION: underline;
+	color: #e30510;
+	}
+	/* ==========    鼠标无点击过，链接状态    =============== */
+A:active {
+	TEXT-DECORATION: none;
+	color: #333;
+}
+
+
+
+	/* ==========    带链接状态    =============== */
+A.a666:link {
+	TEXT-DECORATION: none;
+	color: #666;
+	}
+	/* ==========    鼠标点击后，链接状态    =============== */
+A.a666:visited {
+	TEXT-DECORATION: none;
+	color: #666;
+	}
+    /* ==========    鼠标经过，链接状态色    =============== */
+A.a666:hover {
+	TEXT-DECORATION: underline;
+	color: #333;
+	}
+	/* ==========    鼠标无点击过，链接状态    =============== */
+A.a666:active {
+	TEXT-DECORATION: none;
+	color: #666;
+}
+
+
+/****************************************************************************          背景定义  */
+
+.xuxian{
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCCCCC;
+}
+
+/****************************************************************************          文字描边定义  */
+
+.font_wr{ font-family: Arial, Helvetica, sans-serif;}
+
+.font_999{ color:#999999;}
+
+.font_15{ font-size:15px;}
+
+.font_14{ font-size:14px;}
+
+.hg_30{ line-height:30px;}
+
+#full-screen-slider {
+	width: 1000px;
+	height: 360px;
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+}
+#slides { display:block; width:100%; height:500px; list-style:none; padding:0; margin:0; position:relative}
+#slides li { display:block; width:100%; height:100%; list-style:none; padding:0; margin:0; position:absolute}
+#slides li a { display:block; width:100%; height:100%; text-indent:-9999px}
+#pagination { display:block; list-style:none; position:absolute; left:50%; top:460px; z-index:9900;  padding:5px 15px 5px 0; margin:0}
+#pagination li { display:block; list-style:none; width:10px; height:10px; float:left; margin-left:15px; border-radius:5px; background:#FFF }
+#pagination li a { display:block; width:100%; height:100%; padding:0; margin:0;  text-indent:-9999px;}
+#pagination li.current { background:#0092CE}
+
+.all{
+font-family: Arial, Helvetica, sans-serif;
+color:#333333;}
+.one{
+width:950px;
+margin:0 auto;
+height:280px;
+border:1px solid #eeebeb;
+padding-top:15px;}
+.one-left
+{
+width:200px;
+height:300px;
+float:left;
+
+
+}
+
+.one-right{
+width:730px;
+height:300px;
+float:right;}
+.two{
+width:950px;
+margin:0 auto;
+border:1px solid #eeebeb;
+}
+.two-top
+{
+width:950px;
+height:20px;
+background-color:#666666;
+}
+.two-down
+{
+width:950px;
+height:500px;
+
+padding-top:30px;
+}
+
+.three{
+width:800px;
+margin:0 auto;
+
+}
+
+.lb-one{
+width:950px;
+height:300px;
+margin:0 auto;
+font-size:15px;
+padding-top:30px;
+border:1px solid #eeebeb;
+
+}
+
+.lb-one1{
+width:950px;
+height:1500px;
+margin:0 auto;
+font-size:15px;
+padding-top:30px;
+border:1px solid #eeebeb;
+
+}
+
+.lb-one li{
+line-height:30px;}
+
+
+
+.lb-two{
+width:950px;
+height:150px;
+margin:0 auto;
+font-size:15px;
+padding-top:30px;
+border:1px solid #eeebeb;
+margin-top:15px;
+color:#e30510;
+text-align:center;
+
+}
+
+.lb-two li{
+width:170px;
+line-height:30px;
+float:left;
+list-style:none;}
+.lb-twoo{
+width:950px;
+height:300px;
+margin:0 auto;
+font-size:15px;
+padding-top:30px;
+border:1px solid #eeebeb;
+margin-top:15px;
+color:#e30510;
+text-align:center;
+
+}
+
+.lb-twoo li{
+width:170px;
+line-height:30px;
+float:left;
+list-style:none;}
+
+
+
+.all-main{
+width:950px;
+
+margin:0 auto;
+}
+.lb-oneo{
+width:950px;
+height:500px;
+margin:0 auto;
+font-size:15px;
+padding-top:30px;
+border:1px solid #eeebeb;
+
+}
+
+.lb-oneo li{
+line-height:50px;
+list-style:none;}
+
+.lb-main{
+width:600px;
+margin:0 auto;}
+
+
+
+#basic ul{
+	float:left;
+	margin:0 ;
+	padding: 0 30px 0 0 ;
+	list-style: none;/*去掉标题前的点*/
+	font-family: "宋体";
+}
+
+
+#basic  li{
+	line-height: 2.5rem;
+	padding-left: 22px;
+	list-style: none;/*去掉标题前的点*/
+}
+
+#basic 

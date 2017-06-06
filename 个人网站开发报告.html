@@ -1,0 +1,199 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>个人网站开发报告</title>
+</head>
+<body>
+<div id="wmd-preview" class="wmd-preview"><div class="md-section-divider"></div><div class="md-section-divider"></div><h1 data-anchor-id="bc35" id="个人网站开发报告">个人网站开发报告</h1><div class="md-section-divider"></div><h2 data-anchor-id="esc4" id="网站策划思路">网站策划思路</h2><blockquote data-anchor-id="ljok" class="white-blockquote">
+  <p>制作网页的原因</p>
+  
+  <blockquote class="white-blockquote">
+    <p>展示自我，传播快乐，让更多的人了解音乐的魅力</p>
+  </blockquote>
+  
+  <p>网站期望效果</p>
+  
+  <blockquote class="white-blockquote">
+    <p>页面简洁生动，内容丰富全面，让读者从试听各方面了解音乐</p>
+  </blockquote>
+  
+  <p>网站内容来源</p>
+  
+  <blockquote class="white-blockquote">
+    <p>网络查找 自我总结</p>
+  </blockquote>
+</blockquote><div class="md-section-divider"></div><h2 data-anchor-id="ljhd" id="页面结构与说明">页面结构与说明</h2><blockquote data-anchor-id="akwt" class="white-blockquote">
+  <p>页面组成</p>
+  
+  <blockquote class="white-blockquote">
+    <p>首页、列表页、详细页、表单页</p>
+  </blockquote>
+  
+  <p>页面的url地址</p>
+  
+  <blockquote class="white-blockquote">
+    <p>首页:file:///H:/%E4%B8%AA%E4%BA%BA%E9%A1%B5%E9%9D%A2/index.html <br>
+    列表页：file:///H:/%E4%B8%AA%E4%BA%BA%E9%A1%B5%E9%9D%A2/html/01.html <br>
+    详细页:file:///H:/%E4%B8%AA%E4%BA%BA%E9%A1%B5%E9%9D%A2/html/02.html <br>
+    表单页:file:///H:/%E4%B8%AA%E4%BA%BA%E9%A1%B5%E9%9D%A2/html/03.html</p>
+  </blockquote>
+  
+  <p>页面的角色和作用</p>
+  
+  <blockquote class="white-blockquote">
+    <p>首页：介绍网站的主要内容 <br>
+    列表页：自我介绍同时对页面内容进行更加充分地解释说明 <br>
+    详细页：介绍我的音乐世界 <br>
+    表单页:征集网友信息以及对音乐的了解认识</p>
+  </blockquote>
+</blockquote><div class="md-section-divider"></div><h2 data-anchor-id="ss68" id="技术指标">技术指标</h2><blockquote data-anchor-id="7nft" class="white-blockquote">
+  <p>兼容的浏览器版本</p>
+  
+  <blockquote class="white-blockquote">
+    <p>IE9+兼容，各浏览器表现一致</p>
+  </blockquote>
+  
+  <p>所使用的html/css版本</p>
+  
+  <blockquote class="white-blockquote">
+    <p>基于html3和css <br>
+    含有部分html5和css3新特性 <br>
+    例如：字体设置特性（css3） <br>
+          插入音频mp3（html5）</p>
+  </blockquote>
+  
+  <p>开发工具（浏览器、编辑器及其它工具）列表与说明</p>
+  
+  <blockquote class="white-blockquote">
+    <table class="table table-striped-white table-bordered">
+<thead>
+<tr>
+ <th>工具</th>
+ <th style="text-align:right;">作用</th>
+ <th style="text-align:center;"></th>
+</tr>
+</thead>
+<tbody><tr>
+ <td>火狐浏览器</td>
+ <td style="text-align:right;">网页显示</td>
+ <td style="text-align:center;"></td>
+</tr>
+<tr>
+ <td>javascript</td>
+ <td style="text-align:right;">网页特效制作</td>
+ <td style="text-align:center;"></td>
+</tr>
+<tr>
+ <td>GitHub</td>
+ <td style="text-align:right;">上传源码</td>
+ <td style="text-align:center;"></td>
+</tr>
+<tr>
+ <td>Markdown</td>
+ <td style="text-align:right;">设计开发报告</td>
+ <td style="text-align:center;"></td>
+</tr>
+</tbody></table>
+
+  </blockquote>
+</blockquote><div class="md-section-divider"></div><h2 data-anchor-id="hwrr" id="技术点说明">技术点说明</h2><blockquote data-anchor-id="vcsj" class="white-blockquote">
+  <p>技术难点一：Flash特效功能</p>
+  
+  <blockquote class="white-blockquote">
+    <p>知识背景：</p>
+    
+    <p>1.直接插入Html代码，就是直接将下面的代码插入到你的网页中去（假设在当前目录下有一个01.swf动画文件） <br>
+    <code>&lt;object width=″398″ height=″150″&gt; <br>
+    &lt;param name=″ movie″ value=″01.swf″ &gt; <br>
+    &lt;embed src=″01.swf″ width=″398″ height=″150″&gt; <br>
+    &lt;/embed&gt; <br>
+    &lt;object&gt;</code> <br>
+    2.如果想让没安装Flash插件的朋友也能浏览到Flash动画，那就将下面这段代码插入到你的网页中去，到时它会自动链接到Shockwave的下载网页，自动下载并安装Flash插件。 <br>
+    <code>&lt;object 　　classid=″clsid:D27CDB6E－AE6D－11cf－96B8－444553540000″ codebase=″http://8/pub/shockwave/cabs/Flash/swFlash.cab＃3,0,0,0″ width=″398″  height=″150″&gt; <br>
+    &lt;param name=″SRC″ value=″file:///C％7C/massdown/01.swf″&gt; <br>
+    &lt;embed 　　src=″file:///C％7C/massdown/01.swf″ pluginspage=″http://8/shockwave/download/″ 　　application/x－shockwave－Flash″ width=″398″ height=″150″&gt; <br>
+    &lt;/embed&gt; <br>
+    &lt;/object&gt;</code></p>
+    
+    <p>解决方案：通过查找html手册结合其他网页插入代码进行编写</p>
+    
+    <p>代码说明<code>&lt;object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" <br>
+     codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="326" height="81"&gt; <br>
+          &lt;param name="movie" value="../flash/flash4068.swf" /&gt; <br>
+          &lt;param name="quality" value="high" /&gt; <br>
+          &lt;embed src="../flash/flash4068.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="326" height="81"&gt;&lt;/embed&gt; <br>
+        &lt;/object&gt;</code></p>
+  </blockquote>
+  
+  <p>技术难点二：使用jquery插件实现滚动特效</p>
+  
+  <blockquote class="white-blockquote">
+    <p>知识背景：JQuery实现文字无缝滚动效果(Marquee插件)无缝向上滚动特效具体效果：当鼠标移动到文字上时，向上滚动会停止，当鼠标离开时，向上滚动继续Query UI是以 jQuery为基础的开源JavaScript网页用户界面代码库。包含底层用户交互、动画、特效和可更换主题的可视控件。我们可以直接用它来构建具有很好交互性的web应用程序。</p>
+    
+    <p>解决方案：通过查找html手册结合知乎搜索进行编写</p>
+    
+    <p>代码说明：<code>&lt;script type="text/javascript"src="../js/jquery-1.8.0.min.js"&gt;&lt;/script&gt;&lt;script type="text/javascript" src="../js/jquery.jslides.js"&gt;&lt;/script&gt; <br>
+    &lt;script src="../Scripts/swfobject_modified.js"type="text/javascript"&gt;&lt;/script&gt;</code>  </p>
+  </blockquote>
+</blockquote><div class="md-section-divider"></div><pre class="prettyprint linenums prettyprinted" data-anchor-id="pfaf" style=""><ol class="linenums"><li class="L0"><code class="language-javascript"><span class="pun">&lt;</span><span class="pln">script</span><span class="pun">&gt;</span></code></li><li class="L1"><code class="language-javascript"><span class="pln">    $</span><span class="pun">(</span><span class="kwd">function</span><span class="pun">(){</span></code></li><li class="L2"><code class="language-javascript"><span class="pln">        </span><span class="pun">&lt;!--调用</span><span class="typ">Luara</span><span class="pun">示例--&gt;</span></code></li><li class="L3"><code class="language-javascript"><span class="pln">        $</span><span class="pun">(</span><span class="str">".example"</span><span class="pun">).</span><span class="pln">luara</span><span class="pun">({</span><span class="pln">width</span><span class="pun">:</span><span class="str">"930"</span><span class="pun">,</span><span class="pln">height</span><span class="pun">:</span><span class="str">"280"</span><span class="pun">,</span><span class="pln">interval</span><span class="pun">:</span><span class="lit">1000</span><span class="pun">,</span><span class="pln">selected</span><span class="pun">:</span><span class="str">"seleted"</span><span class="pun">});</span></code></li><li class="L4"><code class="language-javascript"></code></li><li class="L5"><code class="language-javascript"><span class="pln">    </span><span class="pun">});</span></code></li><li class="L6"><code class="language-javascript"><span class="pln">    </span><span class="pun">&lt;/</span><span class="pln">script</span><span class="pun">&gt;</span></code></li><li class="L7"><code class="language-javascript"></code></li><li class="L8"><code class="language-javascript"><span class="pln">    </span><span class="pun">&lt;</span><span class="pln">h5</span><span class="pun">&gt;&amp;</span><span class="pln">nbsp</span><span class="pun">;&lt;/</span><span class="pln">h5</span><span class="pun">&gt;</span></code></li><li class="L9"><code class="language-javascript"><span class="pln">    </span><span class="pun">&lt;!--</span><span class="typ">Luara</span><span class="pun">图片切换骨架</span><span class="pln">begin</span><span class="pun">--&gt;</span></code></li><li class="L0"><code class="language-javascript"><span class="pln">    </span><span class="pun">&lt;!--</span><span class="typ">Luara</span><span class="pun">图片切换骨架</span><span class="pln">end</span><span class="pun">--&gt;</span></code></li><li class="L1"><code class="language-javascript"><span class="pun">&lt;</span><span class="pln">script</span><span class="pun">&gt;</span></code></li><li class="L2"><code class="language-javascript"><span class="pln">        $</span><span class="pun">(</span><span class="kwd">function</span><span class="pun">(){</span></code></li><li class="L3"><code class="language-javascript"><span class="pln">            </span><span class="pun">&lt;!--调用</span><span class="typ">Luara</span><span class="pun">示例--&gt;</span></code></li><li class="L4"><code class="language-javascript"><span class="pln">            $</span><span class="pun">(</span><span class="str">".example1"</span><span class="pun">).</span><span class="pln">luara</span><span class="pun">({</span><span class="pln">width</span><span class="pun">:</span><span class="str">"500"</span><span class="pun">,</span><span class="pln">height</span><span class="pun">:</span><span class="str">"334"</span><span class="pun">,</span><span class="pln">interval</span><span class="pun">:</span><span class="lit">1000</span><span class="pun">,</span><span class="pln">selected</span><span class="pun">:</span><span class="str">"seleted"</span><span class="pun">,</span><span class="pln">deriction</span><span class="pun">:</span><span class="str">"top"</span><span class="pun">});</span></code></li><li class="L5"><code class="language-javascript"></code></li><li class="L6"><code class="language-javascript"><span class="pln">        </span><span class="pun">});</span></code></li><li class="L7"><code class="language-javascript"><span class="pln">    </span><span class="pun">&lt;/</span><span class="pln">script</span><span class="pun">&gt;</span></code></li><li class="L8"><code class="language-javascript"></code></li><li class="L9"><code class="language-javascript"></code></li><li class="L0"><code class="language-javascript"><span class="pln">    </span><span class="pun">&lt;</span><span class="pln">h5</span><span class="pun">&gt;&amp;</span><span class="pln">nbsp</span><span class="pun">;&lt;/</span><span class="pln">h5</span><span class="pun">&gt;</span></code></li><li class="L1"><code class="language-javascript"><span class="pln">    </span><span class="pun">&lt;!--</span><span class="typ">Luara</span><span class="pun">图片切换骨架</span><span class="pln">begin</span><span class="pun">--&gt;</span></code></li><li class="L2"><code class="language-javascript"><span class="pln">    </span><span class="pun">&lt;!--</span><span class="typ">Luara</span><span class="pun">图片切换骨架</span><span class="pln">end</span><span class="pun">--&gt;</span></code></li><li class="L3"><code class="language-javascript"><span class="pun">&lt;</span><span class="pln">script</span><span class="pun">&gt;</span></code></li><li class="L4"><code class="language-javascript"><span class="pln">        $</span><span class="pun">(</span><span class="kwd">function</span><span class="pun">(){</span></code></li><li class="L5"><code class="language-javascript"><span class="pln">            </span><span class="pun">&lt;!--调用</span><span class="typ">Luara</span><span class="pun">示例--&gt;</span></code></li><li class="L6"><code class="language-javascript"><span class="pln">            $</span><span class="pun">(</span><span class="str">".example2"</span><span class="pun">).</span><span class="pln">luara</span><span class="pun">({</span><span class="pln">width</span><span class="pun">:</span><span class="str">"500"</span><span class="pun">,</span><span class="pln">height</span><span class="pun">:</span><span class="str">"334"</span><span class="pun">,</span><span class="pln">interval</span><span class="pun">:</span><span class="lit">1500</span><span class="pun">,</span><span class="pln">selected</span><span class="pun">:</span><span class="str">"seleted"</span><span class="pun">,</span><span class="pln">deriction</span><span class="pun">:</span><span class="str">"left"</span><span class="pun">});</span></code></li><li class="L7"><code class="language-javascript"></code></li><li class="L8"><code class="language-javascript"><span class="pln">        </span><span class="pun">});</span></code></li><li class="L9"><code class="language-javascript"><span class="pln">    </span><span class="pun">&lt;/</span><span class="pln">script</span><span class="pun">&gt;</span></code></li><li class="L0"><code class="language-javascript"><span class="pln">  </span><span class="pun">}</span></code></li><li class="L1"><code class="language-javascript"><span class="pln">  </span><span class="kwd">return</span><span class="pln"> a</span><span class="pun">;</span></code></li><li class="L2"><code class="language-javascript"><span class="pun">}</span></code></li><li class="L3"><code class="language-javascript"></code></li><li class="L4"><code class="language-javascript"><span class="pln">document</span><span class="pun">.</span><span class="pln">write</span><span class="pun">(</span><span class="pln">fib</span><span class="pun">(</span><span class="lit">10</span><span class="pun">));</span></code></li></ol></pre><blockquote data-anchor-id="c16j" class="white-blockquote">
+  <p>技术难点三：网页的排版和布局</p>
+  
+  <blockquote class="white-blockquote">
+    <p>知识背景：</p>
+    
+    <blockquote class="white-blockquote">
+      <p>1.段落排版和换行 <br>
+      2.给大段文字进行分段 <br>
+      3.给文字加入空格 <br>
+      4.设置文字换行与不换行 <br>
+      5.设置文字对齐方式 <br>
+      6.添加水平分隔线 <br>
+      等等</p>
+    </blockquote>
+    
+    <p>解决方案：通过查找html手册结合知乎搜索进行编写</p>
+    
+    <blockquote class="white-blockquote">
+      <p>知识链接：<a href="http://www.jb51.net/web/12416.html" target="_blank">http://www.jb51.net/web/12416.html</a></p>
+    </blockquote>
+    
+    <p>代码说明:  <br>
+    <code>&lt;div class="lb-one"&gt; <br>
+        &lt;section id="basic" class="clearfix"&gt; <br>
+            &lt;li class="article"&gt;&lt;h1&gt;基本信息&lt;/h1&gt;&lt;/li&gt;</code></p>
+  </blockquote>
+</blockquote><pre data-anchor-id="qml3"><code>    &lt;ul class="first"&gt;
+        &lt;li&gt; &lt;span class="header"&gt;姓名：&lt;/span&gt;王锴泽&lt;/li&gt;
+        &lt;li&gt; &lt;span class="header"&gt;性别：&lt;/span&gt;男&lt;/li&gt;
+        &lt;li&gt; &lt;span class="header"&gt;籍贯：&lt;/span&gt;山西&lt;/li&gt;
+        &lt;li&gt; &lt;span class="header"&gt;出生年月：&lt;/span&gt;1998-07-21&lt;/li&gt;
+        &lt;li&gt; &lt;span class="header"&gt;政治面貌：&lt;/span&gt;共青团团员&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;ul class="second"&gt;
+        &lt;li&gt;&lt;span class="header"&gt;专业：&lt;/span&gt;软件工程&lt;/li&gt;
+        &lt;li&gt;&lt;span class="header"&gt;特长：&lt;/span&gt;音乐，篮球&lt;/li&gt;
+        &lt;li&gt;&lt;span class="header"&gt;爱好：&lt;/span&gt;品味音乐&lt;/li&gt;
+        &lt;li&gt;&lt;span class="header"&gt;毕业年月：&lt;/span&gt;2020-06-28&lt;/li&gt;
+        &lt;li&gt;&lt;span class="header"&gt;毕业院校：&lt;/span&gt;杭州电子科技大学&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;ul class="last"&gt;
+        &lt;li&gt;&lt;span class="header"&gt;应聘岗位：&lt;/span&gt;杭州电子科技大学&lt;/li&gt;
+        &lt;li&gt;&lt;span class="header"&gt;期待年薪：&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;span class="header"&gt;博客：&lt;/span&gt;&lt;a href="http://blog.16070421.com/"&gt;http://blog.16070421.com&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;span class="header"&gt;电话：&lt;/span&gt;13372411462&lt;/li&gt;
+        &lt;li&gt;&lt;span class="header"&gt;电子邮件：&lt;/span&gt;1033441754@qq.com&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/section&gt;
+利用标签对内容布局整理使网页结构清晰
+</code></pre><div class="md-section-divider"></div><h2 data-anchor-id="45hw" id="开发过程的总结和本门课程的感想与展望">开发过程的总结和本门课程的感想与展望</h2><blockquote data-anchor-id="19wd" class="white-blockquote">
+  <blockquote class="white-blockquote">
+    <p>总结：网页的开发的是一个有趣但又复杂的过程，第一次制作网页，内容与技术都比较不成熟，稍显简陋，但通过运用各种技术完成页面的各种构造，达到自己想要的结果是一个有趣的过程。在html和css的运用上各种标签格式的使用仍不合理完美，js技术学习时间较短许多概念性知识仍不了解，只能通过网站上的成品进行模仿借鉴从而达到自己想要的效果。未来仍需要更多的联系来完善技术，充实自身，制作出更加漂亮的网页！</p>
+    
+    <p>感想与展望：Web前端开发工程师是一个全新的职业，在IT行业真正受到重视的时间不超过5年。同时现在越来越多的IT企业对用户体验更加注重，因此对web前端人员的需求也越来越大！因此Web前端开发与设计是一门非常重要的课程，他使我们从根本上了解了网页的制作基础，满足了我们对网络世界好奇的同时，让我们学到了许多知识，未来前端技术的发展必将更加迅猛，不断的学习不断的探索才是进步的前提!</p>
+  </blockquote>
+</blockquote></div>
+</body>
+</html>
